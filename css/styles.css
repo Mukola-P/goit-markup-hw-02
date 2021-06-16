@@ -1,0 +1,179 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #212121;
+}
+.logo-text {
+  color: #2196f3;
+}
+
+.menu-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}
+
+.mail-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #2196f3;
+}
+
+.tel-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: #2196f3;
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  color: #666363;
+}
+
+.modal-btn {
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  
+  color: #ffffff;
+}
+
+.roster-title{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+
+ color: #212121;
+
+}
+
+
+.kill-description{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 24px;
+ letter-spacing: 0.03em;
+
+ color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #c4c4c4;
+}
+
+.communication-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.communication-mai:hover,
+.communication-mail:focus {
+  color: #2196f3;
+}
+
+.communication-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.communication-tel:hover,
+.communication-tel:focus {
+  color: #2196f3;
+}

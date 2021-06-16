@@ -6,54 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
 
-    <header>
-        <nav>
-            <a href="/">WebStudio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+    <header class="header">
+        <nav class="navigation">
+            <a class="logo link" href="./index.html"><span class="logo-text">Web</span>Studio</a>
+            <ul class="menu">
+                <li class="menu-item list">
+                    <a class="menu-link link" href="">Студия</a>
+                </li>
+                <li class="menu-item list">
+                    <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-item list">
+                    <a class="menu-link link" href="">Контакты</a>
+                </li>
             </ul>
         </nav>
 
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="auth-nav list ">
+            <li>
+                <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a class="tel-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
         </ul>
     </header>
     
     <main>
-         <section>
-             <h1 lang="ru">Эффективные решения <br /> для вашего бизнеса</h1>
+        <section class="hero">
+             <h1 class="hero-title" lang="ru">Эффективные решения <br /> для вашего бизнеса</h1>
 
-             <button type="button">Заказать услугу</button>
+             <button class="modal-btn" type="button">Заказать услугу</button>
         </section>
 
         
-        <section>
-            <h2>Заголовок</h2>
-            <ul>
+        <section class="skill">
+            <h2 class="skill-title">Заголовок</h2>
+            <ul class="skill-roster list"> 
                 <li>
-                    <h3 lang="ru">Внимание к деталям</h3>
-                    <p lang="ru">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    <h3 class="roster-title" lang="ru">Внимание к деталям</h3>
+                    <p class="skill-description" lang="ru">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3 lang="ru">Пунктуальность</h3>
-                    <p lang="ru">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h3 class="roster-title" lang="ru">Пунктуальность</h3>
+                    <p class="skill-dskill-escription" lang="ru">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3 lang="ru">Планирование</h3>
-                    <p lang="ru">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h3 class="roster-title" lang="ru">Планирование</h3>
+                    <p class="skill-description" lang="ru">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3 lang="ru">Современные технологии</h3>
-                    <p lang="ru">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="roster-title" lang="ru">Современные технологии</h3>
+                    <p class="skill-description" lang="ru">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
@@ -99,12 +112,12 @@
 
     <footer>
         
-        <a href="/">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="meilto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <a class="logo link" href="./index.html"><span class="logo-text">Web</span>Studio</a>
+        <address class="address">
+            <ul class="communication list">
+                <li><a href="" class="location link" >г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="communication-mail link" href="meilto:info@example.com">info@example.com</a></li>
+                <li><a class="communication-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
         </address>
         
