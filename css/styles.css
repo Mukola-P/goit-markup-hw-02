@@ -1,4 +1,5 @@
-:root {
+
+:root{
     --main-font: "Roboto", sans-serif;
     --accent-color: #212121;
     --secondary-color: #2196f3;
@@ -13,6 +14,7 @@ body {
   text-decoration: none;
 }
 
+/* header 1htm*/
 .logo {
   font-style: normal;
   font-weight: bold;
@@ -37,6 +39,11 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--secondary-color);
+}
+
+
+.current{
+    color: var(--secondary-color);
 }
 
 .mail-link {
@@ -68,6 +75,7 @@ body {
   color: var(--secondary-color);
 }
 
+/* hero 1htm*/
 .hero-title {
   font-style: normal;
   font-weight: 900;
@@ -90,6 +98,7 @@ body {
   color: #ffffff;
 }
 
+/* skill 1htm*/
 .skill-title{
     display: none;
 }
@@ -116,7 +125,7 @@ body {
  color: #757575;
 }
 
-
+/* work 1htm*/
 .work{font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
@@ -124,8 +133,7 @@ line-height: 1.17;
 color: var(--accent-color) ;
 }
 
-
-
+/*team-title*/
 .team-title{font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -141,7 +149,6 @@ font-size: 16px;
 line-height: 0.84;
 
 color: var(--accent-color) ;
-
 }
 
 .team-activity{
@@ -153,6 +160,7 @@ line-height: 1.89;
 color: #757575;
 }
 
+/*logo link*/
 .location {
   font-style: normal;
   font-weight: normal;
@@ -189,4 +197,46 @@ color: #757575;
 .communication-tel:hover,
 .communication-tel:focus {
   color: var(--secondary-color);
+}
+ 
+/* portfolio.2htm*/
+
+.nav-button{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+cursor: pointer;
+border:none;
+
+color: var(--accent-color);
+}
+
+.nav-button:hover,
+.nav-button:focus{
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+}
+
+.card-title{
+    font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+
+
+
+color: var(--accent-color);
+}
+
+.card-text{
+    font-family: var(--main-font);
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.88;
+
+color: #757575;
 }
