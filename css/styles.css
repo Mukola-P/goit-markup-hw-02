@@ -1,3 +1,11 @@
+:root {
+    --main-font: "Roboto", sans-serif;
+    --accent-color: #212121;
+    --secondary-color: #2196f3;
+}
+body {
+    font-family: var(--main-font)
+  }
 .list {
   list-style: none;
 }
@@ -6,54 +14,50 @@
 }
 
 .logo {
-  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 
-  color: #212121;
+  color: var(--accent-color);
 }
 .logo-text {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .menu-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--accent-color) ;
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .mail-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
 }
 .mail-link:hover,
 .mail-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .tel-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -61,119 +65,128 @@
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .hero-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 
   color: #666363;
 }
 
 .modal-btn {
-  background-color: #2196f3;
+  background-color: var(--secondary-color);
   width: 200px;
   height: 50px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
+  cursor: pointer;
   
   color: #ffffff;
 }
 
+.skill-title{
+    display: none;
+}
+
+
 .roster-title{
- font-family: Roboto;
  font-style: normal;
  font-weight: bold;
  font-size: 14px;
- line-height: 16px;
+ line-height: 1.14;
  letter-spacing: 0.03em;
  text-transform: uppercase;
 
- color: #212121;
+ color: var(--accent-color) ;
 
 }
 
 
-.kill-description{
- font-family: Roboto;
- font-style: normal;
- font-weight: normal;
+.skill-description{
  font-size: 14px;
- line-height: 24px;
+ line-height: 1.714px;
  letter-spacing: 0.03em;
 
  color: #757575;
 }
 
 
+.work{font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+
+color: var(--accent-color) ;
+}
 
 
 
+.team-title{font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
 
 
+color: var(--accent-color) ;
+}
 
+.team-member{font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 0.84;
 
+color: var(--accent-color) ;
 
+}
 
+.team-activity{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.89;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+color: #757575;
+}
 
 .location {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #c4c4c4;
 }
 
 .communication-mail {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 .communication-mai:hover,
 .communication-mail:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
 
 .communication-tel {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 }
 .communication-tel:hover,
 .communication-tel:focus {
-  color: #2196f3;
+  color: var(--secondary-color);
 }
