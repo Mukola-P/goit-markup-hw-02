@@ -1,10 +1,17 @@
 :root{
     --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway";
     --accent-color: #212121;
     --secondary-color: #2196f3;
+    --third-color: #757575;
+    --white-color: #ffffff;
 }
 body {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    font-weight: 500;
   }
 .list {
   list-style: none;
@@ -15,7 +22,7 @@ body {
 
 /* header 1htm*/
 .logo {
-  font-style: normal;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -27,8 +34,6 @@ body {
 }
 
 .menu-link {
-  font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -40,33 +45,20 @@ body {
   color: var(--secondary-color);
 }
 
-
 .current{
     color: var(--secondary-color);
 }
 
-.mail-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
+.mail-link,
+.tel-link {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--third-color);
 }
 .mail-link:hover,
 .mail-link:focus {
   color: var(--secondary-color);
-}
-
-.tel-link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: #757575;
 }
 
 .tel-link:hover,
@@ -76,37 +68,31 @@ body {
 
 /* hero 1htm*/
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 
-  color: #666363;
+  color: var(--white-color);
 }
 
 .modal-btn {
   background-color: var(--secondary-color);
   width: 200px;
   height: 50px;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
   
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* skill 1htm*/
 .skill-title{
     display: none;
 }
-
-
 .roster-title{
- font-style: normal;
  font-weight: bold;
- font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.03em;
  text-transform: uppercase;
@@ -114,14 +100,11 @@ body {
  color: var(--accent-color) ;
 
 }
-
-
 .skill-description{
- font-size: 14px;
  line-height: 1.714px;
  letter-spacing: 0.03em;
 
- color: #757575;
+ color: var(--third-color);
 }
 
 /* work 1htm*/
@@ -133,16 +116,15 @@ color: var(--accent-color) ;
 }
 
 /*team-title*/
-.team-title{font-style: normal;
+.team-title{
 font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
 
-
 color: var(--accent-color) ;
 }
 
-.team-member{font-style: normal;
+.team-member{
 font-weight: 500;
 font-size: 16px;
 line-height: 0.84;
@@ -151,29 +133,24 @@ color: var(--accent-color) ;
 }
 
 .team-activity{
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 1.89;
 
-color: #757575;
+color: var(--third-color);
 }
 
 /*logo link*/
 .location {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #c4c4c4;
+  color: var(--white-color);
 }
 
-.communication-mail {
+.communication-mail,
+.communication-tel {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -184,15 +161,6 @@ color: #757575;
   color: var(--secondary-color);
 }
 
-.communication-tel {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
 .communication-tel:hover,
 .communication-tel:focus {
   color: var(--secondary-color);
@@ -214,28 +182,23 @@ color: var(--accent-color);
 
 .nav-button:hover,
 .nav-button:focus{
-    background-color: var(--secondary-color);
-    color: #FFFFFF;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
 }
 
 .card-title{
-    font-family: var(--main-font);
-font-style: normal;
+  font-family: var(--main-font);
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
-
-
 
 color: var(--accent-color);
 }
 
 .card-text{
-    font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
+  font-family: var(--main-font);
 font-size: 16px;
 line-height: 1.88;
 
-color: #757575;
+color: var(--third-color);
 }
