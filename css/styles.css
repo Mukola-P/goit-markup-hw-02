@@ -1,6 +1,6 @@
 :root{
     --main-font: "Roboto", sans-serif;
-    --secondary-font: "Raleway";
+    --secondary-font: "Raleway", sans-serif; 
     --accent-color: #212121;
     --secondary-color: #2196f3;
     --third-color: #757575;
@@ -11,8 +11,8 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    font-weight: 500;
-  }
+    
+}
 .list {
   list-style: none;
 }
@@ -37,6 +37,7 @@ body{
   color: var(--white-color);
 }
 .menu-link {
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -54,6 +55,7 @@ body{
 
 .mail-link,
 .tel-link {
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
@@ -70,12 +72,15 @@ body{
 }
 
 /* hero 1htm*/
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+  
+  text-align: center;
   color: var(--white-color);
+  
 }
 
 .modal-btn {
@@ -86,6 +91,11 @@ body{
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
+
+  display: block;
+  margin: 0 auto;
+
+   
   
   color: var(--white-color);
 }
@@ -93,7 +103,7 @@ body{
 
 /* skill 1htm*/
 .skill-title{
-    display: none;
+  display: none;
 }
 .roster-title{
  font-weight: bold;
@@ -112,9 +122,12 @@ body{
 }
 
 /* work 1htm*/
-.work{font-weight: bold;
+.work{
+font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
+
+text-align: center;
 
 color: var(--accent-color) ;
 }
@@ -125,20 +138,24 @@ font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
 
+text-align: center;
+
 color: var(--accent-color) ;
 }
 
 .team-member{
-font-style: normal;
 font-size: 16px;
 line-height: 0.84;
 
+text-align: center;
 color: var(--accent-color) ;
 }
 
 .team-activity{
 font-size: 16px;
 line-height: 1.89;
+
+text-align: center;
 
 color: var(--third-color);
 }
@@ -174,8 +191,8 @@ color: var(--third-color);
 
 .nav-button{
 font-family: var(--main-font);
-font-style: normal;
 font-weight: 500;
+font-style: normal;
 font-size: 16px;
 line-height: 1.62;
 cursor: pointer;
@@ -207,16 +224,13 @@ line-height: 1.88;
 color: var(--third-color);
 }
 
+
 /* fon*/
 .hero{
-width: 1600px;
 background: #2F303A;}
 
-.footer{
 
-width: 1600px;
-height: 252px;
-left: 0px;
+.footer{
 
 background: #2F303A;
 }
