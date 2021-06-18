@@ -23,6 +23,7 @@ body {
 /* header 1htm*/
 .logo {
   font-family: var(--secondary-font);
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
