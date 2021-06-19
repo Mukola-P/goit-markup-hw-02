@@ -122,18 +122,9 @@ body{
 }
 
 /* work 1htm*/
-.work{
-font-weight: bold;
-font-size: 36px;
-line-height: 1.17;
-
-text-align: center;
-
-color: var(--accent-color) ;
-}
-
 /*team-title*/
-.team-title{
+.team-title,
+.work{
 font-weight: bold;
 font-size: 36px;
 line-height: 1.17;
